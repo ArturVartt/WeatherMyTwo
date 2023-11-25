@@ -1,0 +1,141 @@
+body {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/its.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.wrapper {
+
+    margin: 0 auto;
+    max-width: 600px;
+    min-height: 360px;
+    background-color: #B0C4DE;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.container_weather {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #B0C4DE;
+    display: flex;
+    min-width: 540px;
+    min-height: 40px;
+    border-bottom: 1px solid black;
+}
+
+#input_firstt {
+    background-color: #B0C4DE;
+    min-width: 540px;
+    min-height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.box_weather {
+    min-height: 320px;
+    display: flex;
+    font-size: 24px;
+    max-height: 300px;
+}
+
+.left_box {
+    flex-direction: column;
+    min-width: 300px;
+    border-right: 1px solid black;
+    display: flex;
+    height: 320px;
+}
+
+.left__box-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temperature {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 23px;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.weather_img {
+    align-self: center;
+    justify-content: center;
+    height: 120px;
+    width: 130px;
+    margin-bottom: 30px;
+
+}
+
+.city_name {
+    align-self: flex-start;
+    margin: 0;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.heart {
+    margin-right: 10px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.right_box {
+    width: 300px;
+    overflow-y: scroll;
+}
+
+.right_box::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper_added_location {
+    border-bottom: 1px solid black;
+}
+
+.added_location {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 23px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+
+}
+
+.city__list-item {
+    display: flex;
+    margin: 20px 0 10px 15px;
+    text-decoration: none;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.close {
+
+    margin-right: 10px;
+}

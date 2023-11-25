@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container_weather">
+            <form class="weather__form">
+                <input id="input_firstt" type="text" placeholder="Введите город">
+            </form>
+            <img class="search" src="img/search.svg" alt="кнопка поиск">
+        </div>
+
+        <div class="box_weather">
+            <div class="left_box">
+                <p class="temperature">0°</p>
+                <img class="weather_img" src="./img/icons8-cloud-96 1.svg" alt="картинка погоды">
+                <div class="left__box-bottom">
+                    <p class="city_name">Aktobe</p>
+                    <img class="heart" src="img/Shape.svg" alt="картинка сердечка">
+                </div>
+            </div>
+
+            <div class="right_box">
+                <div class="wrapper_added_location">
+                    <h4 class="added_location">Добавленные города:</h4>
+                </div>
+                <ul class="city__list">                 
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
